@@ -24,8 +24,16 @@ colors = ["red", "orange", "yellow", "green", "blue", "indigo", "violet"]
 #     print(f"At position {i}, {name} is found")
 
 
-# While Loops
-count: int = 1  
-while count <= 10:
-    print(count)
-    count += 1
+# While Loops will continute until a condition is met or is not met
+# count: int = 1  
+# while count <= 10:
+#     print(count)
+#     count += 1
+
+fruit: str = ""
+
+
+while fruit != "q":
+    fruit = input("what is your favourite fruit? ('q' to quit )) " )
+    print(f"you like {fruit}")
+
