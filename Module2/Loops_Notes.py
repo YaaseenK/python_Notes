@@ -15,14 +15,17 @@ colors = ["red", "orange", "yellow", "green", "blue", "indigo", "violet"]
 
 # The Enumerated For Loop
 # This will keep track both the item and its position
-fruits = ["apple", "banana", "orange"]
-for index, fruit in enumerate(fruits):
-    print(f"At position {index}, I found a {fruit}")
+# fruits = ["apple", "banana", "orange"]
+# for index, fruit in enumerate(fruits):
+#     print(f"At position {index}, I found a {fruit}")
 
-names = ["Yaameen", "Neven", "Ben", "Yaaseen"]
-for i, name in enumerate(names):
-    print(f"At position {i}, {name} is found")
+# names = ["Yaameen", "Neven", "Ben", "Yaaseen"]
+# for i, name in enumerate(names):
+#     print(f"At position {i}, {name} is found")
 
 
 # While Loops
-print('1')
+count: int = 1  
+while count <= 10:
+    print(count)
+    count += 1
